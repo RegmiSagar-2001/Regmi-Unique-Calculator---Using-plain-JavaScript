@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project_Calculator</title>
+    <link rel="stylesheet" href="script.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculator</h1>
+    </header>
+
+    <section id="calculator">
+      <input type="number" id="input-number-1"/>
+      <input type="number" id="input-number-2"/>
+      <div id="calc-actions">
+        <span class="calc-btn">
+          <button type="button" id="btn-add">+</button>
+          <button type="button" id="btn-subtract">-</button>
+          <button type="button" id="btn-multiply">*</button>
+          <button type="button" id="btn-divide">/</button>
+        </span>
+        <span class="imp_btn">
+          <button type="button" id="btn-equal">=</button>
+          <button type="button" id="btn-clear">AC</button>
+        </span>
+      </div>
+    </section>
+    <section id="results">
+      <h1 id="current-calculation">0</h1>
+      <h1>Result: <span id="current-result">0</span></h1>
+    </section>
+    <section id="about">
+      <h1>First, Please select the numbers to calculate than the operator.</h1>
+      <h2>Thank you for the cooperation. This problem will be solved soon.</h2>
+    </section>
+     <script src="JavaScript/main.js"></script> 
+     <script src="JavaScript/app.js"></script> 
+  </body>
+</html>
