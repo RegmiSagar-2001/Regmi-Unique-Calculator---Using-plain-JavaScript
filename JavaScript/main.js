@@ -1,4 +1,3 @@
-
 const userFirstInput = document.getElementById('input-number-1');
 const userSecondInput = document.getElementById('input-number-2');
 const addBtn = document.getElementById('btn-add');
@@ -11,9 +10,7 @@ const equalBtn = document.getElementById('btn-equal');
 const currentResultOutput = document.getElementById('current-result');
 const currentCalculationOutput = document.getElementById('current-calculation');
 
-function outputDescription(text) {
-  currentCalculationOutput.textContent = text;
-}
-function outputResult(result) {
+function outputResult(result, text) {
   currentResultOutput.textContent = result;
+  currentCalculationOutput.textContent = text;
 }
